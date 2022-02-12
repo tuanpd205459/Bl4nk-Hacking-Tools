@@ -57,7 +57,7 @@ fi
 
 if [ $choice == 3 ]; then
 phases=( 
-    'Checking For Discord.exe...'
+    'Checking For Token...'
     'Loading Assets...'
     'Checking For Weaknesses...'
     'Finishing...'
