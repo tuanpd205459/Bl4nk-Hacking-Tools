@@ -1,7 +1,8 @@
 # Bl4nk-hacking-tools
 A lot of hacking tools made for linux.
 Tested on: ubuntu, parrotOS, cutefishOS, Virtual Machines, Kali, Wndows 11/10 linux subsystem terminal ubuntu.
-https://cdn.discordapp.com/attachments/940394632146202687/942032080106303558/unknown.png
+
+![alt text](https://cdn.discordapp.com/attachments/940394632146202687/942032080106303558/unknown.png)
 # Installation
 ```
 sudo apt install git
