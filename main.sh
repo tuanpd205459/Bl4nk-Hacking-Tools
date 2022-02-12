@@ -11,6 +11,16 @@ WHITE='\e[37m'
 NC='\e[0m'
 purpal='\033[35m'
 
+if [[ "$(id -u)" -ne 0 ]]; then
+  # Code
+  echo -e "${RED}Unable To Start Bl4nk, Are You Rooted? "
+  exit 1
+fi
+function main() {
+        echo "Complete!"
+        exit 1
+}
+
 
 clear
 
@@ -27,10 +37,6 @@ echo "
 echo -e "${RED}[!] This Tool Must Run As ROOT [!]${NC}"
 
 echo -e "
-
-
-
-
 ${CYAN}Discord Tools                            WiFi Tools                            Web Tools                      Other${GREEN}
 |---------------------------------------------------------------------------------------------------------------------|      
 | ${WHITE}[1]${GREEN} BruteCrack                      ${WHITE}[4]${GREEN} Network Scanner              ${WHITE}[7]${GREEN} Website Code copyer         ${WHITE}[10]${GREEN} About Us  |
@@ -125,6 +131,6 @@ sudo bash main.sh
 fi
 
 if [ $choice == 11 ]; then
-echo -e "${RED}Exiting...${NC}"
+echo -e "${RED}Exiting..."
     exit
 fi
