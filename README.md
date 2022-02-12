@@ -10,3 +10,7 @@ sudo bash install.sh
 ```
 # Tutorials
 Installing ubuntu as subsystem on windows: https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview
+# Disclaimer
+This script is made for educational purpose only!
+
+Don't use with wrong intentions.
