@@ -10,6 +10,10 @@ sudo git clone https://github.com/Mohi63/Bl4nk-Hacking-Tools
 cd Bl4nk-Hacking-Tools
 sudo bash install.sh
 ```
+To start the tool after installation type
+```
+sudo bash main.sh
+```
 # Tutorials
 Installing ubuntu as subsystem on windows: https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview
 # Disclaimer
