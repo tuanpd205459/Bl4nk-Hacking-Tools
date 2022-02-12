@@ -125,6 +125,6 @@ sudo bash main.sh
 fi
 
 if [ $choice == 11 ]; then
-echo -e "${RED}Exiting..."
+echo -e "${RED}Exiting...${NC}"
     exit
 fi
