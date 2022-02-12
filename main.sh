@@ -31,7 +31,7 @@ echo -e "
 
 
 
-${CYAN}Discord Tools                                  WiFi Tools                      Web Tools                      Other${GREEN}
+${CYAN}Discord Tools                                         WiFi Tools                                       Web Tools                                      Other${GREEN}
 |---------------------------------------------------------------------------------------------------------------------|      
 | ${WHITE}[1]${GREEN} BruteCrack                      ${WHITE}[4]${GREEN} Network Scanner              ${WHITE}[7]${GREEN} Website Code copyer         ${WHITE}[10]${GREEN} About Us  |
 | ${WHITE}[2]${GREEN} Nitro Generator                 ${WHITE}[5]${GREEN} Network Attack               ${WHITE}[8]${GREEN} Website Status Checker      ${WHITE}[11]${GREEN} EXIT      |
@@ -127,5 +127,4 @@ fi
 if [ $choice == 11 ]; then
 echo -e "${RED}Exiting..."
     exit
-
 fi
