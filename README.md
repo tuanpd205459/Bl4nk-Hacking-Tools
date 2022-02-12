@@ -4,8 +4,8 @@ Tested on: ubuntu, parrotOS, cutefishOS, Virtual Machines, Kali, Wndows 11/10 li
 # Installation
 ```
 sudo apt install git
-sudo git clone https://github.com/Mohi63/Bl4nk-hacking-tools
-cd Bl4nk-hacking-tools
+sudo git clone https://github.com/Mohi63/Bl4nk-Hacking-Tools
+cd Bl4nk-Hacking-Tools
 sudo bash install.sh
 ```
 # Tutorials
