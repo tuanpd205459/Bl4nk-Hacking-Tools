@@ -39,7 +39,7 @@ echo -e "${RED}[!] This Tool Must Run As ROOT [!]${NC}"
 echo -e "
 ${CYAN}Discord Tools                            WiFi Tools                            Web Tools                      Other${GREEN}
 |---------------------------------------------------------------------------------------------------------------------|      
-| ${WHITE}[1]${GREEN} BruteCrack                      ${WHITE}[4]${GREEN} Network Scanner              ${WHITE}[7]${GREEN} Website Code copyer         ${WHITE}[10]${GREEN} About Us  |
+| ${WHITE}[1]${GREEN} BruteCrack                      ${WHITE}[4]${GREEN} Network Scanner              ${WHITE}[7]${GREEN} Website Code copier         ${WHITE}[10]${GREEN} About Us  |
 | ${WHITE}[2]${GREEN} Nitro Generator                 ${WHITE}[5]${GREEN} Network Attack               ${WHITE}[8]${GREEN} Website Status Checker      ${WHITE}[11]${GREEN} EXIT      |
 | ${WHITE}[3]${GREEN} Anti BruteCrack                 ${WHITE}[6]${GREEN} IfConfig                     ${WHITE}[9]${GREEN} Website Attack                             |
 |                                                                                                                     |
