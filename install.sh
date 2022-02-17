@@ -42,7 +42,7 @@ if [ $choice == y ]; then
 	    sudo apt-get install python-pip
             sudo apt install python3-pip
 	    clear
-            echo "[✔] Trying to installing Requirements ..."
+            echo "[✔] Installing Requirements ..."
             sudo apt install net-tools
 		sudo pip3 install lolcat
 		sudo apt-get install -y figlet
