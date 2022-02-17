@@ -80,6 +80,7 @@ if [ $choice == y ]; then
                 sudo pip3 install pypresence
                 sudo pip3 install pyinstaller
                 sudo pip3 install dhooks
+		sudo pip3 install pandas
 		clear
 echo -e "${GREEN}[✔] Installation Successful !!!"
 echo "[*] To Start The Tool Run The Main.sh With Root"
