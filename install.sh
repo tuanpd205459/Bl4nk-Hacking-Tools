@@ -41,6 +41,7 @@ if [ $choice == y ]; then
 	    sudo apt-get update && apt-get upgrade 
 	    sudo apt-get install python-pip
             sudo apt install python3-pip
+	    clear
             echo "[✔] Trying to installing Requirements ..."
             sudo apt install net-tools
 		sudo pip3 install lolcat
@@ -79,6 +80,7 @@ if [ $choice == y ]; then
                 sudo pip3 install pypresence
                 sudo pip3 install pyinstaller
                 sudo pip3 install dhooks
+		clear
 echo -e "${GREEN}[✔] Installation Successful !!!"
 echo "[*] To Start The Tool Run The Main.sh With Root"
 sleep 3
