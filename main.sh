@@ -92,15 +92,23 @@ echo -n -e "${BLUE}Bl4nk >>${NC} "
 read choice
 if [ $choice == y ]; then
 cd modules
+echo -e "${RED}[!] This Tool Needs Monitoring Mode Enabled To Work, Do You Want To Enable Monitoring Mode? (y/n)"
+echo -n -e "${BLUE}Bl4nk >>${NC} "
+read choice 
+if [ $choice == y ]; then
+sudo ifconfig wlan0 down
+sudo iwconfig wlan0 mode monitor
+sudo ifconfig wlan0 up
+echo -e "${GREEN}[*] Motitoring Mode Enabled Successfully !!!"
+sleep 2
 python3 wifi-scanner.py
 else
     echo -e "${RED}Exiting ..."
 sleep 2
 sudo bash main.sh
-fo
 fi
 fi
-
+fi
 if [ $choice == 5 ]; then
 echo -e "${RED}[!] This Tool Is Currently Under Development !!!"
 sleep 2
