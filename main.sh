@@ -12,7 +12,6 @@ NC='\e[0m'
 purpal='\033[35m'
 
 if [[ "$(id -u)" -ne 0 ]]; then
-  # Code
   echo -e "${RED}Unable To Start Bl4nk, Are You Rooted? "
   exit 1
 fi
@@ -91,6 +90,16 @@ echo -e "${RED}[!] This Tool Will Only Work On Operating Systems With Wlan0 (Kal
 echo -n -e "${BLUE}Bl4nk >>${NC} "
 read choice
 if [ $choice == y ]; then
+echo "Loading..."
+echo -ne '#####                     (33%)\r'
+sleep 1
+echo -ne '#############             (66%)\r'
+sleep 1
+echo -ne '#######################   (100%)\r'
+echo -ne '\n'
+echo "Done!!!"
+sleep 2
+clear
 cd modules
 echo -e "${RED}[!] This Tool Needs Monitoring Mode Enabled To Work, Do You Want To Enable Monitoring Mode? (y/n)"
 echo -n -e "${BLUE}Bl4nk >>${NC} "
@@ -105,6 +114,7 @@ python3 wifi-scanner.py
 else
     echo -e "${RED}Exiting ..."
 sleep 2
+cd -
 sudo bash main.sh
 fi
 fi
