@@ -108,7 +108,7 @@ if [ $choice == y ]; then
 sudo ifconfig wlan0 down
 sudo iwconfig wlan0 mode monitor
 sudo ifconfig wlan0 up
-echo -e "${GREEN}[*] Motitoring Mode Enabled Successfully !!!"
+echo -e "${GREEN}[*] Monitoring Mode Enabled Successfully !!!"
 sleep 2
 python3 wifi-scanner.py
 else
